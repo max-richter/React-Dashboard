@@ -59,9 +59,6 @@ const sideBarStyle = {
   backgroundColor: '#282828'
 };
 
-const hoverStyle = {
-  color: '#FFFFFF'
-}
 
 
 export default Sidebar;
