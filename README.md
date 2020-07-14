@@ -1,2 +1,2 @@
 # React-Dashboard
-A settings dashboard created with react 
+A multi-purpose dashboard created with react 
