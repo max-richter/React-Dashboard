@@ -3,6 +3,11 @@ import Sidebar from "./Sidebar";
 import MainContent from "./MainContent";
 import Toolbar from "./Toolbar";
 
+/**
+ * This container holds all of the components which flow up to it
+ * Cleans up code throughout each component as it contains
+ * all components necessary to build the dashboard
+ */
 class Container extends React.Component {
   render() {
     return (
