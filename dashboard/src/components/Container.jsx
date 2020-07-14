@@ -6,7 +6,7 @@ import MainContent from "./MainContent";
 class Container extends React.Component {
   render() {
     return (
-      <div class="container-fluid">
+      <div class="container-fluid w-auto">
         <div class="row">
             <Sidebar />
             <MainContent />

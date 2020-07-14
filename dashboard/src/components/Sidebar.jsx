@@ -88,7 +88,7 @@ const sidebarTitleStyle = {
   textAlign: "left",
   letterSpacing: "1px",
   fontWeight: "bold",
-  fontSize: "24px",
+  fontSize: "21px",
 };
 
 // styles links
