@@ -26,7 +26,11 @@ class Sidebar extends React.Component {
             value={{
               color: "#8FBC8F",
               size: "2em",
-              style: { paddingRight: "10px", paddingBottom: "5px" },
+              style: {
+                paddingRight: "10px",
+                paddingBottom: "5px",
+                position: "relative",
+              },
             }}
           >
             <a style={sidebarTitleStyle}>
@@ -45,7 +49,7 @@ class Sidebar extends React.Component {
             <Link href="./" class="nav-link">
               <FiInfo /> About
             </Link>
-            <FooterLink href='./' class="nav-link">
+            <FooterLink href="./" class="nav-link">
               <AiFillRocket /> UPGRADE TO PRO
             </FooterLink>
           </IconContext.Provider>
@@ -81,6 +85,8 @@ const horizontalLine = {
 // sets color of sidebar
 const sideBarStyle = {
   backgroundColor: "#282828",
+  position: "relative",
+  zIndex: "5",
 };
 
 // styles sidebar title (username)
@@ -95,6 +101,7 @@ const sidebarTitleStyle = {
 const Link = styled.a`
   color: #a6a6a6;
   padding: 1em;
+  position: relative;
   font-weight: bold;
   letter-spacing: 1px;
   text-align: left;
@@ -109,7 +116,7 @@ const Link = styled.a`
 
 // styles footer (upgrade button)
 const FooterLink = styled.a`
-  color: #A6A6A6;
+  color: #a6a6a6;
   position: absolute;
   bottom: 0%;
   padding: 1em;
@@ -117,7 +124,7 @@ const FooterLink = styled.a`
   letter-spacing: 1px;
   text-align: left;
   &:hover {
-    color: #A0B8A0;
+    color: #a0b8a0;
     cursor: pointer;
     text-decoration: none;
     background-color: #252525;
