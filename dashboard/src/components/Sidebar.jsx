@@ -73,15 +73,6 @@ const horizontalLine = {
   padding: "0",
 };
 
-/* DELETE THIS AFTER ENTIRE PAGE IS STYLED (used as reference) */
-// const linkStyle = {
-//   color: "#A6A6A6",
-//   padding: "1em",
-//   fontWeight: "bold",
-//   letterSpacing: "1px",
-//   textAlign: "left"
-// };
-
 // sets color of sidebar
 const sideBarStyle = {
   backgroundColor: "#282828",
